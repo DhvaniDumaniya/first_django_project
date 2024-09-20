@@ -40,8 +40,8 @@ def item_delete(request, pk):
     return render(request, 'item_confirm_delete.html', {'item': item})
 
 # Create your views here.
-def index(request):
-    return render(request,'index.html')
+# def index(request):
+#     return render(request,'index.html')
 
-def first(request):
-    return render(request,'first.css')
+# def first(request):
+#     return render(request,'first.css')
