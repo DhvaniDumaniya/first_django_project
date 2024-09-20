@@ -19,7 +19,7 @@ from django.urls import path
 from myapp.views import item_create
 from myapp.views import item_list
 from myapp.views import item_update
-from myapp.views import tem_delete
+from myapp.views import item_delete
 # from myapp.views import index
 # from myapp.views import first
 urlpatterns = [
