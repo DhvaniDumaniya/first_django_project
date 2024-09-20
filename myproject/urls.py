@@ -16,10 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from myapp.views import index
-from myapp.views import first
+from myapp.views import item_create
+from myapp.views import item_list
+from myapp.views import item_update
+from myapp.views import tem_delete
+# from myapp.views import index
+# from myapp.views import first
 urlpatterns = [
     path('admin/', admin.site.urls),
 #path('',index,name='index'),
     #path('',first,name='first')
+    path('',name='thing_confrim_delete'),
+    path('',name='thing_from.html'),
+    path('',name='thing_list.html')
 ]

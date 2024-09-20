@@ -39,6 +39,8 @@ def item_delete(request, pk):
         return redirect('item_list')
     return render(request, 'item_confirm_delete.html', {'item': item})
 
+
+
 # Create your views here.
 # def index(request):
 #     return render(request,'index.html')
